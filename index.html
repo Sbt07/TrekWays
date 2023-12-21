@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" style="border-radius: 50%;">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <title>TrekWays</title>
+</head>
+<body>
+    <!-- header section -->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-hiking"></i>  TrekWays</a>
+
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#packages">Packages</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+    </header>
+
+
+    <!-- search-form section -->
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+            <input type="search" name="" placeholder="Search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+
+
+
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(kal-visuals-vnon6QgMyTk-unsplash.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Discover Your Path</span>
+                            <h3>Embrace The Adventure via TrekWays</h3>
+                            <p>Where journeys unfold...</p>
+                            <a href="" class="btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(jakob-owens-MctEgCk1Dm0-unsplash.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Escape</span>
+                            <h3>Explore.Experience</h3>
+                            <p>TrekWays Unleashed...</p>
+                            <a href="" class="btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+
+    <!-- category section -->
+    <section class="category">
+        <h1 class="heading"><span>Adventures</span></h1>
+        <div class="box-container">
+            <div class="box">
+               <img src="canoeing.jpg" alt="" srcset=""> 
+               <h3>Canoeing</h3>
+               <p>Navigate serene waters and explore hidden coves with the rhythmic paddle strokes of canoeing</p>
+               <a href="" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+               <img src="climbing.jpg" alt="" srcset=""> 
+               <h3>Climbing</h3>
+               <p>Conquer new heights and challenge your limits as you ascend rocky cliffs and towering peaks with the art of climbing</p>
+               <a href="" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+               <img src="ziplining.jpg" alt="" srcset=""> 
+               <h3>Zip-lining</h3>
+               <p>Soar through the treetops on a zipline adventure, experiencing the rush of wind and panoramic views from heights</p>
+               <a href="" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+               <img src="kayaking.jpg" alt="" srcset=""> 
+               <h3>Kayaking</h3>
+               <p>Embark on thrilling water adventures, paddling through rapids and serene lakes with the agility of kayaking</p>
+               <a href="" class="read-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---Shop Section-->
+    <section class="shop" id="shop">
+        <h1 class="heading"><span>Featured Products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="pro_backpack.jpg" alt="" srcset="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Backpack</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="pro_gear.jpg" alt="" srcset="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Survival Gear</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="pro_shoes.jpg" alt="" srcset="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Hiking Shoes</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="pro_compass.jpg" alt="" srcset="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Compass</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="pro_glasses.jpg" alt="" srcset="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Glasses</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="image">
+                        <img src="pro_survival.jpg" alt="" srcset="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Survival Kit</h3>
+                        <div class="price">$5.00 - $25.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---Packages Section-->
+    <section class="packages" id="packages">
+        <h1 class="heading"><span>Popular Packages</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="blog4.jpg" alt="" srcset="">
+                </div>
+                <div class="content">
+                    <h3>Aquatic Explorer</h3>
+                    <p>Dive into the unknown as you explore vibrant coral reefs and underwater wonders on our thrilling scuba diving expedition.</p>
+                    <div class="price">$450 - $650</div>
+                    <a href="" class="read-btn">Explore Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="blog2.jpg" alt="" srcset="">
+                </div>
+                <div class="content">
+                    <h3>Snowy Summit Expedition</h3>
+                    <p>Conquer snow-covered peaks and indulge in the magic of winter with our guided snow trekking.</p>
+                    <div class="price">$500 - $650</div>
+                    <a href="" class="read-btn">Explore Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="blog5.jpg" alt="" srcset="">
+                </div>
+                <div class="content">
+                    <h3>Riverside Odyssey</h3>
+                    <p> Embark on a serene canoeing journey down winding rivers, discovering hidden gems along the way.</p>
+                    <div class="price">$349 - $560</div>
+                    <a href="" class="read-btn">Explore Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="blog3.jpg" alt="" srcset="">
+                </div>
+                <div class="content">
+                    <h3>Winter Wilderness</h3>
+                    <p>Learn essential survival skills while camping in the snowy backcountry, creating memories of a true winter adventure.</p>
+                    <div class="price">$450 - $750</div>
+                    <a href="" class="read-btn">Explore Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="blog6.jpg" alt="" srcset="">
+                </div>
+                <div class="content">
+                    <h3>Rock Climber's Delight</h3>
+                    <p>Scale new heights and challenge your limits with our guided rock climbing adventure.</p>
+                    <div class="price">$479 - $850</div>
+                    <a href="" class="read-btn">Explore Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="blog1.jpg" alt="" srcset="">
+                </div>
+                <div class="content">
+                    <h3>Skyward Soarer</h3>
+                    <p>Soar through the treetops and experience the thrill of ziplining with our high-flying adventure.</p>
+                    <div class="price">$350 - $550</div>
+                    <a href="" class="read-btn">Explore Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--services section-->
+    <div class="services">
+        <h1 class="heading"><span>Our Services</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="guide_logo.jpg" alt="" srcset="">
+                <h3>Guided Explorations</h3>
+                <p>Unlock the mysteries of the world with our expert-led adventures.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="map_logo.jpg" alt="" srcset="">
+                <h3>Adventure Maps Pro</h3>
+                <p>Navigate uncharted territories seamlessly with our advanced mapping services.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="trip1_logo.jpg" alt="" srcset="">
+                <h3>TrekMaster Experience</h3>
+                <p>Embark on epic journeys with our seasoned guides leading the way.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="shoe_logo.jpg" alt="" srcset="">
+                <h3>Ultimate Treking Gear</h3>
+                <p>Elevate your expeditions with top-tier backpacks and gear for every adventure.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="bag1_logo.jpg" alt="" srcset="">
+                <h3>Bag & Go-Expeditions</h3>
+                <p>Pack light, travel far – explore the world with our specially curated adventure bags.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="adv1_logo.jpg" alt="" srcset="">
+                <h3>Wilderness Ventures Hub</h3>
+                <p>Your gateway to curated trips, expert guides, detailed maps, trek essentials, and a world of adventure at your fingertips.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--reviews section-->
+    <section class="reviews" id="reviews">
+        <h1 class="heading"><span>Customer Reviews</span></h1>
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="cheerful-curly-business-girl-wearing-glasses.jpg" alt="" srcset="">
+                    <h3>Jane Tramell</h3>
+                    <p>"Thrill-seekers' Paradise! Unforgettable mountain trek with stunning views, expert guides, mindblowing views and seamless organization—worth every penny!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background.jpg" alt="" srcset="">
+                    <h3>Alex Black</h3>
+                    <p>"Incredible Scuba Experience! From vibrant coral reefs to shipwrecks, the aquatic explorer package exceeded all expectations. A must for underwater enthusiasts!"</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="indian-businessman-with-his-white-car.jpg" alt="" srcset="">
+                    <h3>Samuel Ward</h3>
+                    <p>"Zipline Zest! An adrenaline-packed journey through the treetops—safe, exhilarating, greatly satisfying, and a memory-making adventure for the entire family."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="lady-with-brown-eyes-is-smiling-red-wall.jpg" alt="" srcset="">
+                    <h3>Emily Crestwell</h3>
+                    <p>"Riverside Bliss! The canoeing package offered a perfect blend of serenity and excitement. Beautiful landscapes, and a fantastic escape from the daily grind."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="lifestyle-beauty-fashion-people-emotions-concept-young-asian-female-office-manager-ceo-with-pleased-expression-standing-white-background-smiling-with-arms-crossed-chest.jpg" alt="" srcset="">
+                    <h3>Ava Oryolov</h3>
+                    <p>"Rock Climbing Triumph! Challenging yet rewarding, the rock climber's delight package pushed my limits and left me with a sense of accomplishment."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes.jpg" alt="" srcset="">
+                    <h3>Ryan Madani</h3>
+                    <p>"Winter Wonderland Retreat! The snowy summit expedition was magical. Camping amidst snow-covered peaks, created memories that will last a lifetime."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space.jpg" alt="" srcset="">
+                    <h3>Sophia Scott</h3>
+                    <p>"Arctic Aurora Adventure! The Arctic camping experience was surreal—Northern Lights dancing above, and expertly guided activities made it an extraordinary journey."</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--blogs section-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading"><span>Daily Posts</span></h1>
+        <div class="swiper blogs-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="bl1.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <a href="#" class="ai"><i class="fas fa-calendar"></i>21st May, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                    <h3>Wanderlust Diaries</h3>
+                    <p>Embark on a virtual journey with our travel enthusiasts as they share tales of global exploration, cultural discoveries, and hidden gems.</p>
+                    <a href="#" class="read-btn">Read More</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="bl2.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <a href="#" class="ai"><i class="fas fa-calendar"></i>21st May, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                    <h3>Epic Trails Uncovered</h3>
+                    <p>Join our adventure seekers as they unveil the world's most breathtaking trails, providing insights, tips, and firsthand experiences for every hiking enthusiast.</p>
+                    <a href="#" class="read-btn">Read More</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="bl3.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <a href="#" class="ai"><i class="fas fa-calendar"></i>21st May, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                    <h3>Beyond Borders Chronicles</h3>
+                    <p>Explore the untold stories of adventures, where our writers share encounters with landscapes, people, and the spirit of exploration.</p>
+                    <a href="#" class="read-btn">Read More</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="bl4.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <a href="#" class="ai"><i class="fas fa-calendar"></i>21st May, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                    <h3>Nomad's Notes</h3>
+                    <p>Immerse yourself in the nomadic lifestyle through firsthand accounts, practical tips, and anecdotes from our globetrotting community of digital nomads.</p>
+                    <a href="#" class="read-btn">Read More</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="bl5.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <a href="#" class="ai"><i class="fas fa-calendar"></i>21st May, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                    <h3>Adrenaline Avenue</h3>
+                    <p>Dive into the world of sports and activities as our bloggers share escapades, and the exhilaration of pushing boundaries.</p>
+                    <a href="#" class="read-btn">Read More</a>
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="bl6.jpg" alt="" srcset="">
+                    <div class="icons">
+                        <a href="#" class="ai"><i class="fas fa-calendar"></i>21st May, 2021</a>
+                        <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                    <h3>Culinary Trails</h3>
+                    <p>Savor the taste of travel with our culinary explorers, who delve into local cuisines, street food adventures, and unique gastronomic experiences from around the world.</p>
+                    <a href="#" class="read-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--newsletter section-->
+    <section class="newsletter">
+        <div class="content">
+            <h1 class="heading"><span>Subscibe Now</span></h1>
+            <p>Subscribe now to our exclusive newsletter and unlock a world of adventure! Receive firsthand updates on thrilling destinations, expert travel tips, and special offers. Join our community of explorers and stay connected to the pulse of exciting journeys ahead!</p>
+            <form action="">
+                <input type="email" name="" id="" placeholder="Enter your email" class="email">
+                <input type="submit" value="Subscribe" class="read-btn">
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <!--clients section-->
+    <section class="clients">
+        <div class="swiper clients-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <img src="cl1.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="cl2.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="cl3.png" alt="">
+                </div>
+                <div class="swiper-slide slide">
+                    <img src="cl4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#packages">Packages</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra links</h3>
+                <a href="#">Account</a>
+                <a href="#">Orders</a>
+                <a href="#">Wishlist</a>
+                <a href="#">FAQ</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+729-990-8769</a>
+                <a href="#"><i class="fas fa-phone"></i>+234-745-2574</a>
+                <a href="#"><i class="fas fa-envelope"></i>contact@trekways.com</a>
+                <a href="#"><i class="fas fa-map"></i>New Delhi, India - 110001</a>
+            </div>
+
+            <div class="box">
+                <h3>Connect With Us</h3>
+                <a href=""><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href=""><i class="fab fa-twitter"></i>Twitter</a>
+                <a href=""><i class="fab fa-instagram"></i>Instagram</a>
+                <a href=""><i class="fab fa-linkedin"></i>Linkedin</a>
+                <a href=""><i class="fab fa-github"></i>Github</a>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
