@@ -708,6 +708,34 @@ html{
     .header .icons #menu-btn {
         display: inline-block;
     }
+    .category{
+        margin: 4rem;
+    }
+    .shop{
+        margin: 4rem;
+    }
+    .packages{
+        margin: 4rem;
+    }
+    .services{
+        margin: 4rem;
+    }
+    .reviews{
+        margin: 4rem;
+    }
+    .blogs{
+        margin: 4rem;
+    }
+    .newsletter{
+        margin: 4rem;
+    }
+    .clients{
+        margin: 4rem;
+    }
+    .footer .box-container{
+        margin: 4rem;
+        padding: 2rem;
+    }
 }
 
 @media (max-width:450px){
